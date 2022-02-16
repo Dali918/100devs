@@ -1,0 +1,77 @@
+    nav.header_elements li {
+        display: inline-block;
+        list-style-type: none;
+        width: 15%;
+        box-sizing: border-box;
+        color: #0161F0;
+        font-family: "Dongle", Roboto, serif;
+        margin: 5px 5% 5px 0px;
+        vertical-align: middle;
+    }
+    
+    #nav_links {
+        margin-left: 70%;
+        margin-top: 0px;
+    }
+    
+    #nav_links a {
+        margin-right: 10px;
+        color: #0161F0;
+        font-size: 1.3em;
+        padding: 5px;
+    }
+    
+    .middle * {
+        display: inline-block;
+    }
+    
+    h1 {
+        font-size: 3.2em;
+    }
+    
+    .middle li {
+        display: inline-block;
+        background-color: #0161F0;
+        padding: 5px;
+        border-radius: 3px;
+        margin: 3px;
+        font-family: "Dongle", Roboto, serif;
+        font-size: 1.5em;
+        margin-right: 10px;
+    }
+    
+    .middle li a {
+        color: white;
+    }
+    
+    section.middle section {
+        width: 30%;
+        height: 150%;
+    }
+    
+    .nav_links {
+        float: right;
+    }
+    
+    #khan_logo {
+        width: 110%;
+    }
+    
+    #khan_students {
+        float: left;
+        width: 40%;
+    }
+    
+    .footer {
+        clear: both;
+        text-align: center;
+        font-size: 2em;
+    }
+    
+    a {
+        text-decoration: none;
+    }
+    /* * {
+        border-style: solid;
+        border-width: 1px;
+    } */

@@ -1,0 +1,96 @@
+        /* Box Model Hack */
+        
+        * {
+            box-sizing: border-box;
+        }
+        /* Clear fix hack */
+        
+        .clearfix:after {
+            content: ".";
+            display: block;
+            clear: both;
+            visibility: hidden;
+            line-height: 0;
+            height: 0;
+        }
+        
+        .clear {
+            clear: both;
+        }
+        /******************************************
+/* BASE STYLES
+/*******************************************/
+        
+        body {
+            background-color: #27e6dc;
+            border: thick solid #29e35a;
+            color: white;
+        }
+        
+        h1 {
+            font-family: 'Times New Roman', Times, serif;
+            font-style: italic;
+        }
+        
+        a {
+            color: #09b09a;
+            font-weight: bold;
+            font-family: 'Arial', sans-serif;
+        }
+        
+        li {
+            list-style-type: none;
+        }
+        
+        .about_us {
+            font-family: 'Arial', sans-serif
+        }
+        
+        span.about_us {
+            font-weight: bold;
+        }
+        
+        .tick_mark {
+            color: grey;
+            font-weight: bold;
+        }
+        /******************************************
+/* LAYOUT
+/*******************************************/
+        
+        body {
+            padding: 20px;
+            margin: 30% 10%;
+            /* width: 50%; */
+        }
+        
+        h1,
+        footer,
+        nav {
+            text-align: center;
+        }
+        
+        img {
+            float: right;
+            width: 20%;
+            margin: 10px 20px;
+        }
+        
+        header {
+            clear: both;
+        }
+        
+        footer {
+            clear: both;
+        }
+        
+        footer li {
+            display: inline-block;
+        }
+        
+        a {
+            margin: 0px 2px;
+        }
+        /******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
